@@ -79,4 +79,4 @@ iris_Sepal <- data_iris %>%
             Sepalwidth_sum = sum(Sepal.Width), .groups = 'drop')
   
   
-#The following barcha
+#The following code will create a barchart as follows
