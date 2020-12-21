@@ -20,8 +20,8 @@ data_iris <- iris
 
 #Get data summary#
 #As we can see, Sepal.Length Sepal.Width , Petal.Length
-#and Petal width are all numerical variable with
-#while species is the only character or class variable.
+#and Petal width are all numerical variable
+#while species is the only categorical variable.
 #Furthermore, there are three classes of species: 
 #setosa, versicolor and virginica each of equal length.
 #The names() function return names of all features and
@@ -30,12 +30,13 @@ data_iris <- iris
 #Petal.Width and Species. 
 #A Sepal is found in flowering plants or angiosperms 
 #and it is sometimes called a modified leave.
-#For the Petal is each segments of the corolla of a
+#For the Petal, each segment of the corolla of a
 #flower and they are modified leaves and they are 
 #typically colored. The length and width of Sepal and
 #Petal were measured for three species of the 
-#leaf.The number of rows and columns 150 and 5 
+#leaf.The number of rows and columns are 150 and 5 
 #respectively.
+
 summary(data_iris)
 ncol(data_iris)
 nrow(data_iris)
@@ -43,9 +44,9 @@ nrow(data_iris)
 
 #Check For Missing Data#
 #use is.na() function to check for a missing data
-#is.na() will issue a boolean False statement is a
-#missing value exist otherwise issue a True 
-#statement.
+#is.na() will issue a boolean False statement if a
+#missing value does not exist otherwise issue a True 
+
 is.na(data_iris)
 sum(is.na(data_irisiris))
 class(data_iris)
